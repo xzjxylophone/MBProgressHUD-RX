@@ -10,7 +10,7 @@
 #define MBProgressHUD_RXHeader_h
 
 #import "MBProgressHUD+RX.h"
-#import "UIViewController+MBProgressHUD.h"
+#import "UIViewController+RXMBProgressHUD.h"
 
 
 

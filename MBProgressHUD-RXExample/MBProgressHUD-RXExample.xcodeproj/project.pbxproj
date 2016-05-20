@@ -13,7 +13,7 @@
 		C96B0E8F1CEF201000B01976 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B0E8D1CEF201000B01976 /* MainViewController.m */; };
 		C96B0E901CEF201000B01976 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96B0E8E1CEF201000B01976 /* MainViewController.xib */; };
 		C96B0E941CEF219D00B01976 /* MBProgressHUD+RX.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B0E931CEF219D00B01976 /* MBProgressHUD+RX.m */; };
-		C96B0E971CEF21B200B01976 /* UIViewController+MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B0E961CEF21B200B01976 /* UIViewController+MBProgressHUD.m */; };
+		C96B0E9B1CEF23B200B01976 /* UIViewController+RXMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C96B0E9A1CEF23B200B01976 /* UIViewController+RXMBProgressHUD.m */; };
 		F9C6169EEE39A724E711142D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A01F58CEEE64FE60DB38E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +32,9 @@
 		C96B0E8E1CEF201000B01976 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		C96B0E921CEF219D00B01976 /* MBProgressHUD+RX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+RX.h"; sourceTree = "<group>"; };
 		C96B0E931CEF219D00B01976 /* MBProgressHUD+RX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+RX.m"; sourceTree = "<group>"; };
-		C96B0E951CEF21B200B01976 /* UIViewController+MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MBProgressHUD.h"; sourceTree = "<group>"; };
-		C96B0E961CEF21B200B01976 /* UIViewController+MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MBProgressHUD.m"; sourceTree = "<group>"; };
 		C96B0E981CEF21C600B01976 /* MBProgressHUD+RXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+RXHeader.h"; sourceTree = "<group>"; };
+		C96B0E991CEF23B200B01976 /* UIViewController+RXMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RXMBProgressHUD.h"; sourceTree = "<group>"; };
+		C96B0E9A1CEF23B200B01976 /* UIViewController+RXMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RXMBProgressHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +111,11 @@
 		C96B0E911CEF218500B01976 /* MBProgressHUD-RX */ = {
 			isa = PBXGroup;
 			children = (
+				C96B0E981CEF21C600B01976 /* MBProgressHUD+RXHeader.h */,
 				C96B0E921CEF219D00B01976 /* MBProgressHUD+RX.h */,
 				C96B0E931CEF219D00B01976 /* MBProgressHUD+RX.m */,
-				C96B0E951CEF21B200B01976 /* UIViewController+MBProgressHUD.h */,
-				C96B0E961CEF21B200B01976 /* UIViewController+MBProgressHUD.m */,
-				C96B0E981CEF21C600B01976 /* MBProgressHUD+RXHeader.h */,
+				C96B0E991CEF23B200B01976 /* UIViewController+RXMBProgressHUD.h */,
+				C96B0E9A1CEF23B200B01976 /* UIViewController+RXMBProgressHUD.m */,
 			);
 			name = "MBProgressHUD-RX";
 			path = "../MBProgressHUD-RX";
@@ -242,8 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96B0E7A1CEF1FC000B01976 /* AppDelegate.m in Sources */,
+				C96B0E9B1CEF23B200B01976 /* UIViewController+RXMBProgressHUD.m in Sources */,
 				C96B0E8F1CEF201000B01976 /* MainViewController.m in Sources */,
-				C96B0E971CEF21B200B01976 /* UIViewController+MBProgressHUD.m in Sources */,
 				C96B0E771CEF1FC000B01976 /* main.m in Sources */,
 				C96B0E941CEF219D00B01976 /* MBProgressHUD+RX.m in Sources */,
 			);
