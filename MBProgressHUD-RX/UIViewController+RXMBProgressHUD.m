@@ -12,7 +12,7 @@
 @implementation UIViewController (RXMBProgressHUD)
 
 
-
+#pragma mark - loading
 - (void)rx_showHUD
 {
     [self __private_rx_showHUDWithMessage:nil];
@@ -47,7 +47,11 @@
 
 
 
-
+#pragma mark - Warning
+- (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message
+{
+    return [self rx_showWarningWithMessage:message completionBlock:nil];
+}
 - (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message completionBlock:(dispatch_block_t)completionBlock
 {
     MBProgressHUD *hud = [MBProgressHUD rx_hudWithMessage:message view:self.view completionBlock:completionBlock];

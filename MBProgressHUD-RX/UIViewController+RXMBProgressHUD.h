@@ -25,6 +25,8 @@
 
 
 // warning text
+- (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message;
+
 - (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message completionBlock:(dispatch_block_t)completionBlock;
 
 
