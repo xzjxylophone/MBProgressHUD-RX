@@ -10,4 +10,20 @@
 
 @interface MBProgressHUD (RX)
 
+
+
+
++ (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message;
++ (MBProgressHUD *)rx_showWarningWithMessage:(NSString *)message completionBlock:(dispatch_block_t)completionBlock;
+
+
+
+
+
+
+
++ (MBProgressHUD *)rx_hudWithMessage:(NSString *)message view:(UIView *)view completionBlock:(dispatch_block_t)completionBlock;
+
+
+
 @end

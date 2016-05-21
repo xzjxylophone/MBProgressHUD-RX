@@ -7,16 +7,62 @@
 //
 
 #import "MainViewController.h"
-
+#import "MBProgressHUD+RXHeader.h"
 @interface MainViewController ()
 
 @end
 
 @implementation MainViewController
 
+- (void)testShowHud
+{
+    MBProgressHUD *hud = self.rx_progressHUD;
+    hud.dimBackground = NO;
+    [self rx_showHUDWithMessage:@"kkkk"];
+    
+    [self performSelector:@selector(testHidHud) withObject:nil afterDelay:3];
+    
+}
+
+- (void)testHidHud
+{
+//    [self rx_hideHUD];
+    
+//    [self rx_hideHUDWithCompletionMessage:@"1234567"];
+    
+
+    [self rx_hideHUDWithCompletionMessage:@"123" completionBlock:^{
+        NSLog(@"kkkk");
+    }];
+}
+
+- (void)testShowWarning
+{
+
+    [self rx_showWarningWithMessage:@"111" completionBlock:^{
+        NSLog(@"222");
+    }];
+    
+//    NSLog(@"%p", hud);
+    
+//    [self performSelector:@selector(testShowWarning) withObject:nil afterDelay:5];
+    
+//    [MBProgressHUD rx_showWarningWithMessage:@"3333"];
+}
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self performSelector:@selector(testShowWarning) withObject:nil afterDelay:1];
+    
+//    [self performSelector:@selector(testShowHud) withObject:nil afterDelay:1];
+
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
