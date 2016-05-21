@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.version  = "0.9.2.1"
   s.license  = "MIT"
   s.summary  = "MBProgressHUD+RX is a simple ext of MBProgressHUD"
-  s.homepage = "https://github.com/xzjxylophone/MBProgress-RX"
+  s.homepage = "https://github.com/xzjxylophone/MBProgressHUD-RX"
   s.author   = { 'Rush.D.Xzj' => 'xzjxylophoe@gmail.com' }
   s.social_media_url = "http://weibo.com/xzjxylophone"
   s.source   = { :git => 'https://github.com/xzjxylophone/MBProgressHUD-RX.git', :tag => "v#{s.version}" }
