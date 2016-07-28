@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "MBProgressHUD+RX"
-  s.version  = "0.9.2.2"
+  s.version  = "0.9.2.3"
   s.license  = "MIT"
   s.summary  = "MBProgressHUD+RX is a simple ext of MBProgressHUD"
   s.homepage = "https://github.com/xzjxylophone/MBProgressHUD-RX"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.platform = :ios, '7.0'
-  s.dependency 'MBProgressHUD'
+  s.dependency 'MBProgressHUD' , '~> 0.9.2'
 end
 
 
