@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "MBProgressHUD+RX"
-  s.version  = "0.9.2.3"
+  s.version  = "0.9.2.4"
   s.license  = "MIT"
   s.summary  = "MBProgressHUD+RX is a simple ext of MBProgressHUD"
   s.homepage = "https://github.com/xzjxylophone/MBProgressHUD-RX"

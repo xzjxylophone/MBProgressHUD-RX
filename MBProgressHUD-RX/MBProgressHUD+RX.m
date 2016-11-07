@@ -40,6 +40,7 @@
     label.textColor = [UIColor whiteColor];
     label.font = [UIFont systemFontOfSize:17];
     label.numberOfLines = 2;
+    label.numberOfLines = 0;
     [label sizeToFit];
     hud.customView = label;
     return hud;

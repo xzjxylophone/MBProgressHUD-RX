@@ -39,7 +39,7 @@
 - (void)testShowWarning
 {
 
-    [self rx_showWarningWithMessage:@"111" completionBlock:^{
+    [self rx_showWarningWithMessage:@"111w11111111111111111111111omslgkjslgjlskajglsjgljsl;gjslkjalksjglksjaglkjsdlkajglksjljsdlkgjaslkgjdskl" completionBlock:^{
         NSLog(@"222");
     }];
     
